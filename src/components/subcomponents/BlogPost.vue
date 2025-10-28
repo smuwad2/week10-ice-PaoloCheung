@@ -19,8 +19,8 @@
 
 <template>
     <!-- TODO: add your template code here. Use boostrap card --> 
-         <div class="card" style="width: 18rem;">
-    <img class="card-img-top" :src="imgLoc" alt="Card image cap">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" :src="imgLoc" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">{{subject}}</h5>
             <p class="card-text">{{entry}}</p> 
